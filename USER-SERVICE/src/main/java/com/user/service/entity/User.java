@@ -1,9 +1,9 @@
-//package com.user.service.entity;
-//
-//
-//import lombok.Data;
-//import lombok.ToString;
-//
+package com.user.service.entity;
+
+
+import lombok.Data;
+import lombok.ToString;
+
 //import javax.persistence.Column;
 //import javax.persistence.Entity;
 //import javax.persistence.Id;
@@ -11,9 +11,9 @@
 //
 //@Entity
 //@Table(name = "users")
-//@Data
-//@ToString
-//public class User {
+@Data
+@ToString
+public class User {
 //    @Id
 //    @Column(name = "id")
 //    private String userId;
@@ -23,4 +23,4 @@
 //
 //    @Column(name = "emil")
 //    private String email;
-//}
+}
